@@ -1,0 +1,5 @@
+com\mangoapp\qa\pages\HomePage.class
+com\mangoapp\qa\util\Testutil.class
+com\mangoapp\qa\base\Testbase.class
+com\mangoapp\qa\logs\WebEventListener.class
+com\mangoapp\qa\pages\LoginPage.class

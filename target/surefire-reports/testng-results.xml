@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="5" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="28245" started-at="2018-10-13T02:14:41Z" finished-at="2018-10-13T02:15:09Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="28245" started-at="2018-10-13T02:14:41Z" finished-at="2018-10-13T02:15:09Z">
+      <class name="com.mangoapp.qa.testcases.HomePageTests">
+        <test-method status="PASS" signature="setUpMethod(java.lang.reflect.Method)[pri:0, instance:com.mangoapp.qa.testcases.HomePageTests@69d9c55]" name="setUpMethod" is-config="true" duration-ms="7029" started-at="2018-10-12T22:14:49Z" finished-at="2018-10-12T22:14:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.mangoapp.qa.testcases.HomePageTests.testGetLogo()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="testGetLogo()[pri:1, instance:com.mangoapp.qa.testcases.HomePageTests@69d9c55]" name="testGetLogo" duration-ms="3346" started-at="2018-10-12T22:14:56Z" finished-at="2018-10-12T22:15:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetLogo -->
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.mangoapp.qa.testcases.HomePageTests@69d9c55]" name="tearDownMethod" is-config="true" duration-ms="921" started-at="2018-10-12T22:15:00Z" finished-at="2018-10-12T22:15:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGetLogo status=SUCCESS method=HomePageTests.testGetLogo()[pri:1, instance:com.mangoapp.qa.testcases.HomePageTests@69d9c55] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+      </class> <!-- com.mangoapp.qa.testcases.HomePageTests -->
+      <class name="com.mangoapp.qa.testcases.LoginPageTests">
+        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:com.mangoapp.qa.testcases.LoginPageTests@7f560810]" name="setUpSuite" is-config="true" duration-ms="404" started-at="2018-10-12T22:14:40Z" finished-at="2018-10-12T22:14:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method status="PASS" signature="setUpMethod(java.lang.reflect.Method)[pri:0, instance:com.mangoapp.qa.testcases.LoginPageTests@7f560810]" name="setUpMethod" is-config="true" duration-ms="7806" started-at="2018-10-12T22:14:41Z" finished-at="2018-10-12T22:14:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.mangoapp.qa.testcases.LoginPageTests.testTitle()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="testTitle()[pri:1, instance:com.mangoapp.qa.testcases.LoginPageTests@7f560810]" name="testTitle" duration-ms="35" started-at="2018-10-12T22:14:48Z" finished-at="2018-10-12T22:14:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTitle -->
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.mangoapp.qa.testcases.LoginPageTests@7f560810]" name="tearDownMethod" is-config="true" duration-ms="905" started-at="2018-10-12T22:14:48Z" finished-at="2018-10-12T22:14:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testTitle status=SUCCESS method=LoginPageTests.testTitle()[pri:1, instance:com.mangoapp.qa.testcases.LoginPageTests@7f560810] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="setUpMethod(java.lang.reflect.Method)[pri:0, instance:com.mangoapp.qa.testcases.LoginPageTests@7f560810]" name="setUpMethod" is-config="true" duration-ms="7182" started-at="2018-10-12T22:15:01Z" finished-at="2018-10-12T22:15:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.mangoapp.qa.testcases.LoginPageTests.testLogo()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="testLogo()[pri:2, instance:com.mangoapp.qa.testcases.LoginPageTests@7f560810]" name="testLogo" duration-ms="118" started-at="2018-10-12T22:15:08Z" finished-at="2018-10-12T22:15:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogo -->
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.mangoapp.qa.testcases.LoginPageTests@7f560810]" name="tearDownMethod" is-config="true" duration-ms="880" started-at="2018-10-12T22:15:08Z" finished-at="2018-10-12T22:15:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogo status=SUCCESS method=LoginPageTests.testLogo()[pri:2, instance:com.mangoapp.qa.testcases.LoginPageTests@7f560810] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="tearDownSuite()[pri:0, instance:com.mangoapp.qa.testcases.LoginPageTests@7f560810]" name="tearDownSuite" is-config="true" duration-ms="703" started-at="2018-10-12T22:15:09Z" finished-at="2018-10-12T22:15:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownSuite -->
+      </class> <!-- com.mangoapp.qa.testcases.LoginPageTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
